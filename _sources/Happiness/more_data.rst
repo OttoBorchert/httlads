@@ -127,7 +127,7 @@ mean by dividing our two columns.
 
    What is the happiest country in East Asia? |blank|
 
-   - :Taiwan Province.*: Is the correct answer
+   - :Taiwan.*: Is the correct answer
      :x: Keep checking
 
 

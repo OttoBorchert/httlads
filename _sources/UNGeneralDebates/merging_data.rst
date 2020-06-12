@@ -792,7 +792,8 @@ and ``genre``.
 
    How many movies are in the Family genre? |blank|
 
-   - :2770: Is the correct answer
+   - :2767: Is Correct
+     :2770: Includes some duplicate movies.  Remove duplicates or clean your data.
      :x: Use the len function on the results from querying the genres data frame
 
 
@@ -820,7 +821,8 @@ couple of steps.
 
    What is the  average revenue of a comedy movie?
 
-   - :(12608821.677012537|12608821.678): Is the correct answer
+   - :(12649482.34|12649482): Is Correct
+     :(12608821.677012537|12608821.678|12608821|12608821.68): Is a good try, but does not account for duplicate data.
      :166966016647.0: Is the total revenue
      :x: Hint: Use the fact that imdb_id is the only column in both DataFrames
 
@@ -830,11 +832,11 @@ couple of steps.
    What is the title |blank| and number of genres |blank| of the movie that is
    in the most genres?
 
-   - :The Warrior: Is the correct answer
-     :incorrect: Is feedback on a specific incorrect
+   - :(Princes and Princesses|Yu-Gi-Oh! The Movie|Cool Cat Saves the Kids): Is Correct
+     :The Warrior: Is not correct -- make sure you check for duplicates!
      :x: catchall feedback
 
-   - :10: Is the correct answer
+   - :8: Is the correct answer
      :x: Hint: Use sort and head then merge with the movies data frame
 
 
